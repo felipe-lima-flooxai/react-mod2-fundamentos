@@ -3,8 +3,11 @@ import React from "react";
 
 
 const root = createRoot(document.getElementById("root"));
+
 root.render(
 
-  <h1>Olá React</h1>
+  <div>
+    <strong>Olá react</strong>
+    </div>
 
 );
