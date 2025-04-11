@@ -8,6 +8,7 @@ import "./App.css";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 
 
@@ -46,6 +47,10 @@ return (
 
             <Card titulo="Lista Alunos" color="#588C73">
                 <ListaAlunos></ListaAlunos>
+            </Card>
+
+            <Card titulo="Tabela Produtos" color="#FA6900">
+                <TabelaProdutos></TabelaProdutos>
             </Card>
 
         </div>
