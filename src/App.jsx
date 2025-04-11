@@ -6,6 +6,8 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import "./App.css";
 import Familia from "./components/basicos/Familia";
+import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 
 
 
@@ -35,7 +37,15 @@ return (
             </Card>
 
             <Card titulo="Componente com Filhos" color="#00C8F8">
-                <Familia sobrenome = "Silva"></Familia>
+                <Familia sobrenome = "Silva">
+                    <FamiliaMembro nome='Pedro'></FamiliaMembro>
+                    <FamiliaMembro nome='Ana'></FamiliaMembro>
+                    <FamiliaMembro nome='Gustavo'></FamiliaMembro>
+                </Familia>
+            </Card>
+
+            <Card titulo="Lista Alunos" color="#588C73">
+                <ListaAlunos></ListaAlunos>
             </Card>
 
         </div>
