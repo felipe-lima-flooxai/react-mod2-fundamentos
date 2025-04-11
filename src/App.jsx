@@ -9,6 +9,8 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 
 
@@ -51,6 +53,16 @@ return (
 
             <Card titulo="Tabela Produtos" color="#FA6900">
                 <TabelaProdutos></TabelaProdutos>
+            </Card>
+
+            <Card titulo="Condicional" color="#982395">
+                <ParOuImpar numero={20}></ParOuImpar>
+            </Card>
+
+            <Card titulo="Usuario" color="#982395">
+                <UsuarioInfo usuario={{nome:"Fernando"}}></UsuarioInfo>
+                <UsuarioInfo usuario={{}}></UsuarioInfo>
+                <UsuarioInfo></UsuarioInfo>
             </Card>
 
         </div>
