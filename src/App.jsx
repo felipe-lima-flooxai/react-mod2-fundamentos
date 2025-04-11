@@ -5,6 +5,7 @@ import Fragmento from "./components/basicos/Fragmento";
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import "./App.css";
+import Familia from "./components/basicos/Familia";
 
 
 
@@ -31,6 +32,10 @@ return (
             
             <Card titulo="Desafio Aleatório" color="#588C73">
                 <Aleatorio numeroMin = {10} numeroMax = {20}></Aleatorio>
+            </Card>
+
+            <Card titulo="Componente com Filhos" color="#00C8F8">
+                <Familia sobrenome = "Silva"></Familia>
             </Card>
 
         </div>
