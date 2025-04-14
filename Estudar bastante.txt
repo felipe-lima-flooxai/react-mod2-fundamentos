@@ -1,0 +1,7 @@
+Conceito de Closures em funções. Putaria desgraçada
+
+Função fábrica
+
+Componentes Controlados e não-controlados
+
+useSTATE
