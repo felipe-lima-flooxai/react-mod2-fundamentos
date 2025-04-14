@@ -15,6 +15,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import MegaSena from "./components/mega/MegaSena";
 
 
 
@@ -83,6 +84,10 @@ return (
 
             <Card titulo="Calculadora simples" color="#e45f56">
                 <Contador></Contador>
+            </Card>
+
+            <Card titulo="Gerador de Mega Sena" color="#FA6900">
+                <MegaSena></MegaSena>
             </Card>
 
         </div>
