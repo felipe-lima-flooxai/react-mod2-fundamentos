@@ -12,6 +12,7 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 
 
@@ -68,6 +69,10 @@ return (
 
             <Card titulo="Comunicação Direta" color="#59323C">
                 <DiretaPai></DiretaPai>
+            </Card>
+
+            <Card titulo="Comunicação Indireta" color="#FA6900">
+                <IndiretaPai></IndiretaPai>
             </Card>
 
         </div>
