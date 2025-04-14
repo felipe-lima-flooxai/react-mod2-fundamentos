@@ -11,6 +11,7 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 
 
@@ -62,7 +63,11 @@ return (
             <Card titulo="Usuario" color="#982395">
                 <UsuarioInfo usuario={{nome:"Fernando"}}></UsuarioInfo>
                 <UsuarioInfo usuario={{}}></UsuarioInfo>
-                <UsuarioInfo></UsuarioInfo>
+                <UsuarioInfo usuario="raissa"></UsuarioInfo>
+            </Card>
+
+            <Card titulo="Comunicação Direta" color="#59323C">
+                <DiretaPai></DiretaPai>
             </Card>
 
         </div>
