@@ -14,6 +14,7 @@ import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
 
 
 
@@ -78,6 +79,10 @@ return (
 
             <Card titulo="Componente Controlado" color="#e45f56">
                 <Input></Input>
+            </Card>
+
+            <Card titulo="Calculadora simples" color="#e45f56">
+                <Contador></Contador>
             </Card>
 
         </div>
